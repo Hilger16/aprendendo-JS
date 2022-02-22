@@ -1,0 +1,12 @@
+Linguagem de alto nivel - se aproxima a linguagem humana.
+Utilizado pra criar scripts dinâmincos.
+Um exemplo de um prédio:
+O html é a estrutura, o css é o design e o JavaScript é a fiação e o encamento. 
+É a parte interativa no desenvolvimento.
+
+A tipagem funciona como um regra de dados, quanto mais forte mais obrigatório é a declaração do tipo de dado.
+No JS é fraca então a declaração acontece de modo dinâmico.
+Ex: se criar uma variável com valor entre aspas o JS já converte para string.
+
+Tipos primitivos
+boolean, null, undefined, number, string, array, object, function
