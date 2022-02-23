@@ -10,3 +10,57 @@ Ex: se criar uma variável com valor entre aspas o JS já converte para string.
 
 Tipos primitivos
 boolean, null, undefined, number, string, array, object, function
+
+variaveis são dados que variam, são como uma caixa onde pode-se guardar qualquer coisa.
+
+para declarar:
+var tem escopo global, pode ser alterada e local e se não definida é null
+
+let tem escopo local de bloco, pode ser alterada e se não definida é null
+
+const tem escopo local de bloco, somente leitura, o valor inciado é obrigatório e não pode ser alterado
+
+escopo
+
+escopo global a variavel é declarada fora de qualquer bloco, sua visibilidade fica disponivel para todo o código
+
+escopo local a variável é declarada dentro de um bloco, sua visibilidade pode ficar disponivel ou não
+
+regras de uso:
+
+iniciar com letras, underscore_ ou cifrão, não iniciar com número
+não iniciar com espaços(usar _)
+não usar palavras reservadas como function, var, let, const
+declarar as variáveis no topo do bloco do código
+
+
+atribuição = 
+comparação ==
+comparação identica ===
+
+
+operadores aritméticos
++ adição
+- subtração
+* multiplicação
+/ divisão real
+% divisão inteira
+** potenciação
+
+operadores relacionais
+> maior que;
+< menor que;
+>= maior ou igual a;
+<= menor ou igual a;
+
+
+operadores lógicos
+&& "e" considera que todos os valores sejam true
+|| "ou" considera que qualquer valor seja true
+! "nao" iverte o valor de true para false e vice-versa
+
+
+vetores ou arrays
+lista ou matriz de variavel que possui indice
+é um caixa que possui varias caixas dentro e cada um possui um valor
+Ex: let array = ['string', 1, true...]
