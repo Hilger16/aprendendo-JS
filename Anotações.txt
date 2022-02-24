@@ -64,3 +64,88 @@ vetores ou arrays
 lista ou matriz de variavel que possui indice
 é um caixa que possui varias caixas dentro e cada um possui um valor
 Ex: let array = ['string', 1, true...]
+
+Array sempre entre [] e podem guardar qualquer valor dentro do indice
+Ex; let array = ['srting', 1, true, false, ['array1'], ['array2']...]
+o indice só é acessado por números inteiros, onde 0 é o primeiro e separados por virgula
+
+manipulando arrays
+depois de declarar o array tem vários métodos de manipulação
+
+forEach() - itera um array;
+push() - add item no final do array;
+pop() - remove item no final do array;
+shift() - remove item no início do array;
+inshift() - add item no início do array;
+indexOf() - retorna o índice de um valor;
+splice() - remove ou substitui um item pelo indice
+slice() - retorna uma parte de um array existente
+
+Objetos
+dados que possuem propriedades e valores que definem suas caracteristicas. Tem que declarar entre {}
+Ex:
+var xicara = {
+	cor: 'azul',
+	tamanho: 'p',
+	funcao: tomarCafe()
+   }
+
+manipulando objetos
+as propriedades podem sem atribuidas a variáveis, isso se chama desestruturação
+EX: var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
+
+	var cor=xicara.cor;
+	var tamanho=xicara.tamanho;
+	var funcao=tomarCafe();
+
+estruturas condicionais, de decisão e de repetição
+condicionais
+instruções para realizar determinada tarefa a partir de uma condição
+if = se
+else - se nao
+else if = mais de uma condição
+ninho de if = um if dentro do outro
+
+switch/case
+estrutura condicinal
+switch var
+case...
+break
+case
+break
+defaul
+
+laços de repetição
+repetem um instrução até atingir determinada condição
+for
+for/in
+for/of
+while
+do/while
+
+
+funções
+blocos de comandos de instruções
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
