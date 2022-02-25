@@ -126,13 +126,25 @@ do/while
 
 funções
 blocos de comandos de instruções
+() - indica que é um objeto do tipo função
+{} - indica que é um bloco de instrução pra função que vai ser executada
+As funções podem receber parâmetros que podem servir como variávies de estado onde a atribuição pode ser feita durante a chama da função
 
+funções declarativas - mais comuns
+ function seguida do nome, () {}
 
+expressões de função
+são funções atribuídas à expressões
 
+arrow functions
+expressões de sintaxe curta, são anônimas e portanto não são nomeadas. São declaradas com () seguidas de => e {}
 
-
-
-
+funções arritméticas (criando calculadora)
+métodos nativos do JS
+Number - converte valores em números;(letra maiscula o N)
+prompt - para registrar entradas de usuário;(letra minuscula o p)
+Alert - para mostrar mensagens ao usuário;
+Template Strings - para usar strings junto com expressões - utiliza `` craze;
 
 
 
