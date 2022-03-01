@@ -1,0 +1,44 @@
+tipos de função
+palavra reservada function
+function nomedafuncao (parametros ou não, argumentos) {instruções}
+
+qualquer variável criada ou declarada dentro da função só pode ser usada dentro da função
+
+o return para a função e retorna o valor após ele
+
+função anônima pois não tem nome
+uma variavel pode armazenar um função
+const soma = function (a, b) {
+	return a + b;
+}
+soma(1, 2)) //3
+soma(5, 4) //9
+
+função autoinvocavel
+IIFE (expressão de função invocada imediatamente)
+uma função anônima entre parênteses, seguida por outro parênteses que presenta sua chamada
+
+função callback é uma função passada para outra com argumentos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
