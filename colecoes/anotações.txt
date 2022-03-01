@@ -1,0 +1,61 @@
+MAP - colecão
+coeleção de array no formato chave e valor
+pode ser iterado por for...of
+
+const myMap = new Map()
+
+set adiciona elementos ('...', '...')o primeiro é a chave e o segundo o valor
+
+get = checar o valor da chave
+
+delete = com a chave
+
+map vs objeto
+
+maps podem ter chaves de qualquer tipo
+objetos tem chaves no formato strings
+
+map possui a propriedade length
+faceis de iterar
+utilizado quando o valor das chaves é desconhecido
+os valores tem o mesmo tipo
+
+Set
+são estruturas que armazenam valores únicos que não se repetem
+
+p adicionar .add
+consultar .has
+deletar .delete
+
+
+set vs arrays
+possui valores unicos
+em vez de length, se consulta o número de registros pela propriedade size
+não possui metodos map, filter, reduce que são de arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
