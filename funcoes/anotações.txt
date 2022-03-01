@@ -6,8 +6,9 @@ qualquer variável criada ou declarada dentro da função só pode ser usada dentro 
 
 o return para a função e retorna o valor após ele
 
-função anônima pois não tem nome
-uma variavel pode armazenar um função
+função anônima 
+sem um nome especifico e que podem ter seu valor atribuido a uma variavel
+
 const soma = function (a, b) {
 	return a + b;
 }
@@ -17,11 +18,18 @@ soma(5, 4) //9
 função autoinvocavel
 IIFE (expressão de função invocada imediatamente)
 uma função anônima entre parênteses, seguida por outro parênteses que presenta sua chamada
+não recebem parâmentros
 
 função callback é uma função passada para outra com argumentos
 
+call
+transforma o valor this no objeto enviado como primeiro parâmetro e aceita outros aprâmetros separados por vírgula, reutilizavel em outros objetos
 
+apply
+transforma o valor this no objeto enviado como primeiro parâmetro e aceita outros aprâmetros chamado por array
 
+bind
+cria um clone da função na qual for invocada, designando ao this o valor do objeto passado como parâmetro
 
 
 
