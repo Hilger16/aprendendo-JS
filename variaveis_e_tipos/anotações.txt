@@ -1,0 +1,93 @@
+convenções
+
+Camel Case = someAwesomeVar p/ variável
+
+upper case snake case = SOME_AWESOME_VAR p/ const
+
+para valores dinâmicos, que podem ser mudados usar var e let
+
+let tem escopo de bloco, por exemplo dentro de um if, function
+
+var também tem escopo de bloco e valores atribuidos dentro do bloco ficam restritos ao bloco
+
+var pode ser redeclarado, o let não
+let pode ser reatribuido e não faz hoisting
+
+-redeclarar e escrever var ou let a variável e uma atribuição ou não
+
+- reatribuição é não usar var e let e atribuir a outro valor
+
+hoisting = joga a declaração da variavel para cima se for declarada depois do bloco
+
+constantes são declaradas com snake upper case, tem escopo de bloco e não faz hoisting
+
+
+	     	var		   const	let
+escopo		global ou local	   bloco        bloco
+redeclarar	sim		   não		não
+reatribuir	sim		   não		sim
+hoisting	sim		   não		não
+
+tipos
+no JS a tipagem é dinâmica e não é necessário declarar o tipo dele
+tipos primitivos = numeros, strings bolean null e undefined
+
+tipos não primitivos(compostos) = objects e arrays
+
+Strings
+valor declarado entre aspas e crase
+String com letra maiscula é um object
+
+let exemplo = new String ("blablabla")
+com a crase não é necessário os javascripts scapes
+pode se escrever literalmente alguma coisa, espaços ele considera espaços
+
+metodos importantes
+concatenação
+propriedade length
+iterabilidade
+formatação
+index de letras
+
+
+Numbers
+numeros inteiros ou decimais
+
+boleans
+true ou false
+se escrever o valor com ! na frente ele retorna o contrário
+
+arrays
+lista iteraveis de elementos
+propriedade index que começa no 0
+iterabilidade = fazer operações em cada elemento do array
+
+Objetos
+declara a variavel e inicia com {
+tem as chaves e os valores
+
+Empty, null e undefined
+empty não tem nada dentro
+
+null valor não existe
+
+undefined nem declaro, o valor não existe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+operadores JS
+tipos:
+atribuição:
+= igual - x=y - atribuindo valor a alguma coisa
++= igual x = x + y
+*= igual x = x * y
+/= igual x = x / y
+%= igual x = x % y
+
+aritiméticos
++ adição
+- subtração
+* multiplicação
+** potenciação
+/ divisão inteira
+% divisão real
+++ incremento
+-- decremento
+
+comparação
+== pergunta se são igual, mas não checa o tipo
+=== checa se é mesmo tipo e valor cinco = 5
+!= diferente
+!== valores e tipos diferentes
+> maior que
+< menor que
+>= maior ou igual
+<= menor ou igual
+
+lógica
+&& é logico - uma afirmação e outra afirmação
+|| ou lógico - ||(pipe)
+! não lógico
+
+condicional (ternário)
+condição ? expressão1 : expressão2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
