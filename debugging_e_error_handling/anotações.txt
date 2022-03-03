@@ -1,0 +1,50 @@
+tipos de erros
+
+ECMAScript Error: composto por mensagem, nome, linha, call stack
+é referente a erro em tempo de excecução
+
+
+DOMException
+erro relacionado ao codigo que está rodando no navegador
+erro relacionado a arvore de estruras do documento que está rodando na página web
+erro referente ao DOM
+
+
+Return
+o return devolve uma string ou aquilo que foi definido caso a funcção não seja atendida
+
+Throw
+
+devolve um erro com as propriedades do erro
+
+Try...catch ou (try...catch...finally)
+faz uma verificação dentro de um pedaço de código
+catch = possibilidade de manipular o tratamento de um erro com maior flexibilidade
+finally = é exceutada sempre, idependente de erros ocorrerem ou não
+
+Manipula error
+
+aceita os parametros message, (fileName, lineNumber)
+
+const MeuErro = new Error('Mensagem Inválida');
+throw MeuErro;
+
+
+const MeuErro = new Error('Mensagem Inválida');
+MeuErro.name = 'InvalidMessage';
+
+throw MeuErro;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
