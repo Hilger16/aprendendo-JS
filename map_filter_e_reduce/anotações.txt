@@ -1,0 +1,70 @@
+Map
+um conjunto A passa por uma operação e se torna um conjunto B
+
+map não modifica o array
+ele cria um novo array
+realiza em todos os elementos do array
+
+array.map(callback, thisArg)
+callback = função a ser executada em cada elemento
+dentro do callback tem acesso ao item, o index e o array original que são opicionais
+
+o elemento thisArg é opcional
+
+No forEach precisa colocar o resultado dentro de uma constante e retorna undefined
+
+
+Filter
+
+colocar o array em um filtro e somente os item que atenderem as condições serão retornados
+cria um novo array
+não modifica o array original
+
+array.filter(callback, thisArg)
+callback = função a ser executada em cada elemento
+geralmente é uma comparação
+o elemento thisArg é opcional
+
+Reduce
+não retorna um novo array
+ele exceuta uma função e retorna apenas um valor único
+array.reduce(callback, initialValue)
+callback: função a ser executada a partir do acumulador
+initialValue: valor sobre o qual o retorno final irá atuar (opicional)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
