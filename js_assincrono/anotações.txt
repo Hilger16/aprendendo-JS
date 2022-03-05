@@ -2,7 +2,6 @@ Assíncrono as coisas não precisam acontecer juntas, pode ser feito uma coisa, en
 
 sincrono, acontece por exemplo com os estudantes que vão em uma determinada data, num tempo especifico e todos precisam esta naquele momento juntos
 
-
 Promises são objetos de processamento assíncrono, pode ser resolvida ou rejeitada, mas não é possivel saber se foi rejeitada
 3 estados: pending, fulfilled e rejected
 
