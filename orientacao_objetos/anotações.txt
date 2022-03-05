@@ -1,0 +1,48 @@
+programação tem 2 paradigmas
+-imperativo foca em como vai se resolver os problemas
+
+-declarativo como vai se fazer isso, ex database
+
+na programação os programas são objetos que possuem propriedades
+
+A orientação a objetos tem 4 pilares
+herança
+objeto filho herda propriedade e métodos dos objeto pai, mas o objeto filho também tem suas próprias propriedades
+
+polimorfismo
+são objetos que herdam a mesma classe pai, mas se comportam de forma diferente invocando seus próprios métodos
+
+encapsulamento
+cada classe tem propriedades e métodos independentes do restante do código
+
+abstração = generalizar mais
+processo mental que visa descomplexar alguma coisa, afim de simplificar sua avaliação, classificação ou permitir a comunicação do mesmo
+
+
+Orientação a objetos em JS
+protótipos são o esqueleto de todos os objetos, responsável pelo conceito herança de JS
+todos os objetos JS herdam propriedades e métodos de um protótipo
+
+classes no JS não existem nativamente, elas são objetos e a gerança se dá por protótipos
+syntatic sugar: sintaxe feita para facilitar a escrita
+
+método super passa argmentos enviados para a classe ascendente
+
+getter e setters por convenção devem nomear um método usando o _(underscore)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

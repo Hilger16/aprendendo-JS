@@ -1,0 +1,25 @@
+Assíncrono as coisas não precisam acontecer juntas, pode ser feito uma coisa, enquanto outra coisa acontece ao mesmo tempo
+
+sincrono, acontece por exemplo com os estudantes que vão em uma determinada data, num tempo especifico e todos precisam esta naquele momento juntos
+
+
+Promises são objetos de processamento assíncrono, pode ser resolvida ou rejeitada, mas não é possivel saber se foi rejeitada
+3 estados: pending, fulfilled e rejected
+
+precisa do await para obter o resultado
+
+resultado de uma promise será outra promise
+
+async/await são funções assíncrono(palavras chaves)
+await pede pro código esperar até a promise terminar
+
+Consumo de API's
+aplication programming interface
+
+APIs retorna os dados no formato .json(JavaScript Object Notatio) e precisam de tratamento quando recebida
+
+método fetch
+fetch retorna uma promise e precisa converter para json e precisa usar await
+
+fetch(url, options)
+	.then
