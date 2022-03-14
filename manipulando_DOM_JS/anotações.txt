@@ -1,0 +1,4 @@
+DOM - document object model, padrão de como acessar e modificar os elementos HTML da página
+
+BOM - browser object model
+
